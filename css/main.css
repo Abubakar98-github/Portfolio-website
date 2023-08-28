@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* nav-section css */
+.header-section{
+width: 100%;
+padding: 2rem 0rem;
+}
+.navbar-section{
+width: 90%;
+margin: auto;
+}
+.navbar-content{
+     display: flex;
+     justify-content: space-between;
+}
+.btn{
+     background-color: transparent;
+     border: none;
+     margin-right: 3rem;
+     font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.055em;
+color: #212121;
+cursor: pointer;            
+}
+.btn:hover{
+     color: #608AF5;
+     transform:  3sec;
+}
+button:last-child{
+     font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.055em;
+color: #FFFFFF;
+background-color: #608AF5;
+border-radius: 5px;
+padding: 0.7rem 0.4rem;
+border: none;
+cursor: pointer;
+}
+button:last-child:hover{
+     background-color: #1853c9;
+}
+/* head-section css */
+.head-section{
+     width: 100%;
+     padding: 5rem 0rem;
+}
+.head-content{
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.header-left-div{
+     width: 50%;
+}
+.header-right-div{
+     width: 50%;
+}
+.head-section h6{
+     font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+letter-spacing: 0.005em;
+color: #002265;
+}
+.head-heading{
+     font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5rem;
+line-height: 52px;
+letter-spacing: 0.005em;
+color: #002265;
+padding: 1rem 0rem;
+}
+.head-prg{     
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 34px;
+letter-spacing: 0.015em;
+color: #082032;
+padding: 1rem 0rem;
+}
+/* passions-section css */
+.passions-section{
+     width: 100%;
+     padding: 3rem 0rem;
+}
+.passions-content{
+     width: 90%;
+     margin: auto;
+}
+.heading-passions{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+padding: 2rem 0rem;
+}
+.card-passions{
+     display: flex;
+padding: 2rem 0rem;
+justify-content: space-between;
+}
+.box-passions{
+     display: flex;
+     /* justify-content: center; */
+     flex-direction: column;
+     align-items: center;
+width: 347px;
+height: 280px;
+left: 149px;
+top: 858px;
+background: #FFFFFF;
+box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+border-radius: 13px;
+}
+.card-heading{
+     font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.055em;
+color: #000000;
+}
+.card-prg{
+     
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.055em;
+
+color: #000000;
+}
+.first-heading{
+color: #14279B;
+margin-right: 0.5rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.055em;
+}
+.second-heading{
+color: #002265;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.055em;
+}
+/* portfolio-section css */
+.portfolio-section{
+     width: 100%;
+}
+.portfolio-content{
+     width: 90%;
+     margin: auto;
+     padding: 3rem 0rem;
+}
+.heading-portfolio{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+padding: 2rem 0rem;
+}
+.card-portfolio{
+     display: flex;
+     justify-content: space-between;
+     padding: 1rem 0rem ;
+}
+.contact-section{
+     width: 100%;
+     padding: 3rem 0rem;
+}
+.contact-content{
+     width: 90%;
+     margin: auto;
+}
+.heading-contact{
+display: flex;
+justify-content: center;
+padding: 1rem 0rem;
+}
+.card-contact{
+display: flex;
+justify-content: space-between;
+padding: 1rem 0rem;
+}
+
+.foot-section{
+     width: 100%;
+     
+}
+footer img{
+     width: 100%;
+}
+
